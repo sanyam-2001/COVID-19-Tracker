@@ -98,7 +98,7 @@ $('#newdata').on('click', function(e){
     }
    
     xhr.send();
-    setTimeout(up, 100);
+    setTimeout(up, 500);
     function up(){
         for (var p=0 ; p < count.length ; p++){
             countUp(count[p], count[p].innerText, Math.floor(count[p].innerText/200));
@@ -195,7 +195,7 @@ function success(position){
 
 
         setTimeout(function (){$('.region').slideDown();
-        $('.state').slideDown(100);}, 200);
+        $('.state').slideDown(100);}, 100);
        
     }
     
