@@ -7,7 +7,7 @@ req.onload = function(){
     var data = JSON.parse(this.responseText);
     var states  = data.statewise;
     var main = document.querySelector('.main');
-   for(var i=0;i<states.length;i++){
+   for(var i=0;i<states.length-1;i++){
        var section = $('<div></div>').addClass('section');
        var heading = $('<h2></h2>').addClass('font-effect-3d-float').text(states[i].state);
 
@@ -30,6 +30,8 @@ req.onload = function(){
         $(section).append(div1, div2, div3);
         $(main).append(section);
    }
+
+
 
 }
 

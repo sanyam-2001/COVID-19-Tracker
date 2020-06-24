@@ -112,9 +112,13 @@ h2{
    display: inline-block;
    height:5px;
 }
-
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+}
 .section{
-    width: 70%;
+    width: 40%;
     margin: auto;
  background:linear-gradient(#eacda3,#d6ae7b);
 transition-duration: 1s;
@@ -147,7 +151,7 @@ transition-duration: 1s;
 .section h2{
        width:80%;
        height:10%;
-     font-size: 40px;
+     font-size: 35px;
     font-family: Merriweather;
  color: black;
  display:inline-block;
@@ -155,6 +159,7 @@ transition-duration: 1s;
    text-align: center;
    margin-left:35px;
 }
+
 .separate{
     display: flex;
     justify-content: space-between;
@@ -177,4 +182,7 @@ table{
 
 
 
+}
+.section:nth-child(1){
+  width: 70%;
 }
