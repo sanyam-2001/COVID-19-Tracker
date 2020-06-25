@@ -195,7 +195,7 @@ function success(position){
 
 
         setTimeout(function (){$('.region').slideDown();
-        $('.state').slideDown(100);}, 100);
+        $('.state').slideDown(10);}, 10);
        
     }
     
