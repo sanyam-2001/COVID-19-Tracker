@@ -196,6 +196,9 @@ img{
  .section h2{
   text-align: center;
  }
+  .section:nth-child(1){
+  width: 90%;
+}
 
 }
 
